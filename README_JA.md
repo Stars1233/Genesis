@@ -8,26 +8,30 @@
 [![GitHub Discussions](https://img.shields.io/github/discussions/Genesis-Embodied-AI/Genesis)](https://github.com/Genesis-Embodied-AI/Genesis/discussions)
 
 [![README in English](https://img.shields.io/badge/English-d9d9d9)](./README.md)
+[![README en Français](https://img.shields.io/badge/Francais-d9d9d9)](./README_FR.md)
+[![한국어 README](https://img.shields.io/badge/한국어-d9d9d9)](./README_KR.md)
 [![简体中文版自述文件](https://img.shields.io/badge/简体中文-d9d9d9)](./README_CN.md)
 [![日本語版 README](https://img.shields.io/badge/日本語-d9d9d9)](./README_JA.md)
 
 # Genesis
+
 ## 🔥 最新情報
+
 - [2024-12-25] [レイトレーシングレンダラー](#docker)をサポートするDockerを追加しました。
 - [2024-12-24] [Genesisへの貢献方法](https://github.com/Genesis-Embodied-AI/Genesis/blob/main/CONTRIBUTING.md)に関するガイドラインを追加しました。
 
 ## 目次
 
-1. [Genesisとは？](#what-is-genesis)
-2. [主な機能](#key-features)
-3. [簡単インストール](#quick-installation)
+1. [Genesisとは？](#genesisとは)
+2. [主な機能](#主な機能)
+3. [インストール](#インストール)
 4. [Docker](#docker)
-5. [ドキュメント](#documentation)
-6. [Genesisへの貢献](#contributing-to-genesis)
-7. [サポート](#support)
-8. [ライセンスと謝辞](#license-and-acknowledgments)
-9. [関連論文](#associated-papers)
-10. [引用](#citation)
+5. [ドキュメント](#ドキュメント)
+6. [Genesisへの貢献](#genesisへの貢献)
+7. [サポート](#サポート)
+8. [ライセンスと謝辞](#ライセンスと謝辞)
+9. [関連論文](#関連論文)
+10. [引用](#引用)
 
 ## Genesisとは？
 
@@ -98,7 +102,7 @@ genesis
 
 ## ドキュメント
 
-包括的なドキュメントは現時点では[英語](https://genesis-world.readthedocs.io/en/latest/user_guide/index.html)および[中国語](https://genesis-world.readthedocs.io/zh-cn/latest/user_guide/index.html)で提供されています。詳細なインストール手順、チュートリアル、APIリファレンスが含まれています。
+包括的なドキュメントは現時点では[英語](https://genesis-world.readthedocs.io/en/latest/user_guide/index.html)、[中国語](https://genesis-world.readthedocs.io/zh-cn/latest/user_guide/index.html)、および[日本語](https://genesis-world.readthedocs.io/ja/latest/user_guide/index.html)で提供されています。詳細なインストール手順、チュートリアル、APIリファレンスが含まれています。
 
 ## Genesisへの貢献
 
@@ -122,12 +126,12 @@ GenesisのソースコードはApache 2.0ライセンスで提供されていま
 Genesisの開発は以下のオープンソースプロジェクトのおかげで可能になりました：
 
 - [Taichi](https://github.com/taichi-dev/taichi): 高性能でクロスプラットフォーム対応の計算バックエンド。Taichiチームの技術サポートに感謝します！
-- [FluidLab](https://github.com/zhouxian/FluidLab): 参照用のMPMソルバー実装。  
-- [SPH_Taichi](https://github.com/erizmr/SPH_Taichi): 参照用のSPHソルバー実装。  
-- [Ten Minute Physics](https://matthias-research.github.io/pages/tenMinutePhysics/index.html) と [PBF3D](https://github.com/WASD4959/PBF3D): 参照用のPBD（粒子ベースの物理）ソルバー実装。  
-- [MuJoCo](https://github.com/google-deepmind/mujoco): 剛体ダイナミクスの参照用実装。  
-- [libccd](https://github.com/danfis/libccd): 衝突検出の参照用実装。  
-- [PyRender](https://github.com/mmatl/pyrender): ラスタライズベースのレンダラー。  
+- [FluidLab](https://github.com/zhouxian/FluidLab): 参照用のMPMソルバー実装。
+- [SPH_Taichi](https://github.com/erizmr/SPH_Taichi): 参照用のSPHソルバー実装。
+- [Ten Minute Physics](https://matthias-research.github.io/pages/tenMinutePhysics/index.html) と [PBF3D](https://github.com/WASD4959/PBF3D): 参照用のPBD（粒子ベースの物理）ソルバー実装。
+- [MuJoCo](https://github.com/google-deepmind/mujoco): 剛体ダイナミクスの参照用実装。
+- [libccd](https://github.com/danfis/libccd): 衝突検出の参照用実装。
+- [PyRender](https://github.com/mmatl/pyrender): ラスタライズベースのレンダラー。
 - [LuisaCompute](https://github.com/LuisaGroup/LuisaCompute) と [LuisaRender](https://github.com/LuisaGroup/LuisaRender): レイトレーシングDSL。
 
 ## 関連論文
